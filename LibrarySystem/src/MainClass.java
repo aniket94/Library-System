@@ -66,6 +66,9 @@ public class MainClass
 	
 	Book b2 = new Book("123456", "Oracle", "ED Burns", 3);
 	b2.displayInfo();
+	
+	Book b3 = new Book("456123", "Database", "Nobal", 1);
+	b3.displayInfo();
 	}
 
 }
