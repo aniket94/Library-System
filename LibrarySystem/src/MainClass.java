@@ -61,11 +61,11 @@ public class MainClass
 	      }	            
 */	     
 		
-	Book b1 = new Book("79456", "System Engg", "John Grisham", 2);
-	b1.displayInfo();
+	/*  Book b1 = new Book("79456", "System Engg", "John Grisham", 2, "Horror");
+	b1.displayInfo();   */
 	
-	Book b2 = new Book("123456", "Oracle", "ED Burns", 3);
-	b2.displayInfo();
+	Book b1 = new Book("123456", "Oracle", "ED Burns", 3,"Language");
+	b1.displayInfo();
 	
 /*	Book b3 = new Book("456123", "Database", "Nobal", 1);
 	b3.displayInfo();    */

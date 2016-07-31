@@ -5,14 +5,16 @@ private String ISBN;
 private String title;
 private String author;
 private int edition;
+private String categories;
 
-public Book(String iSBN, String title, String author, int edition) {
-	super();
+public Book(String iSBN, String title, String author, int edition, String categories) {
+	
 	
 	ISBN = iSBN;
 	this.title = title;
 	this.author = author;
 	this.edition = edition;
+	this.categories = categories; 
 }
 
 public String getISBN() {
@@ -41,12 +43,21 @@ public void setAuthor(String author) {
 
 public int getEdition() {
 	return edition;
+	
+	
 }
 
 public void setEdition(int edition) {
 	this.edition = edition;
 }
 
+public String getCategories() {
+	return categories;
+}
+
+public void setCategories(String categories) {
+	this.categories = categories;
+}
 //create a display method
 
 public void displayInfo()
@@ -55,6 +66,7 @@ public void displayInfo()
 	System.out.println("Title: "+title);
 	System.out.println("Author: "+author);
 	System.out.println("Edition: "+edition);
+	System.out.println("Categories:"+categories);
 	
 }
  
