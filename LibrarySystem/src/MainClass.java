@@ -61,7 +61,7 @@ public class MainClass
 	      }	            
 */	     
 		
-	Book b1 = new Book("79456", "JAVA", "John Grisham", 2);
+	Book b1 = new Book("79456", "System Engg", "John Grisham", 2);
 	b1.displayInfo();
 	
 	Book b2 = new Book("123456", "Oracle", "ED Burns", 3);
