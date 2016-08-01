@@ -1,6 +1,6 @@
 
 
-public class MainClass 
+public class MainClass
 {
 
 	public static void main(String[] args)
@@ -66,6 +66,9 @@ public class MainClass
 	
 	Book b1 = new Book("643145", "Oracle", "William", 12,"Language");
 	b1.displayInfo();
+	
+	Book b2 = new Book("8945621", "System", "Burns", 5,"Level");
+	b2.displayInfo();
 	
 /*	Book b3 = new Book("456123", "Database", "Nobal", 1);
 	b3.displayInfo();    */
